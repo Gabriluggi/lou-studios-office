@@ -10,7 +10,7 @@
   "type": "map",
   "version": "1.10",
   "tiledversion": "1.11.2",
-  "nextlayerid": 6,
+  "nextlayerid": 7,
   "nextobjectid": 10,
   "layers": [
     {
@@ -1585,13 +1585,24 @@
       ]
     },
     {
+      "id": 6,
+      "name": "floorLayer",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "objects": [],
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0
+    },
+    {
       "id": 2,
       "name": "collisions",
       "type": "tilelayer",
       "width": 41,
       "height": 38,
       "opacity": 1,
-      "visible": false,
+      "visible": true,
       "x": 0,
       "y": 0,
       "data": [
@@ -3291,7 +3302,7 @@
         }
       ],
       "opacity": 1,
-      "visible": true,
+      "visible": false,
       "draworder": "topdown",
       "x": 0,
       "y": 0
@@ -4878,15 +4889,70 @@
   "tilesets": [
     {
       "firstgid": 1,
-      "source": "lou_visual.tsj"
+      "columns": 41,
+      "image": "lou_escritorio_sem_personagens.png",
+      "imageheight": 1216,
+      "imagewidth": 1312,
+      "margin": 0,
+      "name": "Lou Studios Visual",
+      "spacing": 0,
+      "tilecount": 1558,
+      "tileheight": 32,
+      "tilewidth": 32,
+      "type": "tileset",
+      "version": "1.10",
+      "tiledversion": "1.11.2"
     },
     {
       "firstgid": 1559,
-      "source": "colisoes.tsj"
+      "columns": 1,
+      "image": "invisivel.png",
+      "imageheight": 32,
+      "imagewidth": 32,
+      "margin": 0,
+      "name": "Colisoes invisiveis",
+      "spacing": 0,
+      "tilecount": 1,
+      "tileheight": 32,
+      "tilewidth": 32,
+      "type": "tileset",
+      "version": "1.10",
+      "tiledversion": "1.11.2",
+      "tiles": [
+        {
+          "id": 0,
+          "properties": [
+            {
+              "name": "collides",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ]
     },
     {
       "firstgid": 1560,
-      "source": "start.tsj"
+      "columns": 1,
+      "image": "start_transparente.png",
+      "imageheight": 32,
+      "imagewidth": 32,
+      "margin": 0,
+      "name": "Inicio transparente",
+      "spacing": 0,
+      "tilecount": 1,
+      "tileheight": 32,
+      "tilewidth": 32,
+      "type": "tileset",
+      "version": "1.10",
+      "tiledversion": "1.11.2"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mapName",
+      "type": "string",
+      "value": "Lou Studios — Escritório Virtual"
     }
   ]
 }
