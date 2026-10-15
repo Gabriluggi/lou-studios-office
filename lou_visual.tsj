@@ -1,0 +1,15 @@
+{
+  "columns": 41,
+  "image": "lou_escritorio_sem_personagens.png",
+  "imageheight": 1216,
+  "imagewidth": 1312,
+  "margin": 0,
+  "name": "Lou Studios Visual",
+  "spacing": 0,
+  "tilecount": 1558,
+  "tileheight": 32,
+  "tilewidth": 32,
+  "type": "tileset",
+  "version": "1.10",
+  "tiledversion": "1.11.2"
+}

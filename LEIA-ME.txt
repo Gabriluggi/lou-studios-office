@@ -1,0 +1,5 @@
+Lou Studios - CORRECAO
+
+Corrigido conflito de IDs (firstgid) entre tilesets que impedia o fundo de aparecer.
+Abra map.tmj no Tiled. A camada de colisoes fica oculta apenas na visualizacao do editor.
+ATENCAO: mapa ainda nao validado dentro do WorkAdventure. Para hospedar, use GitHub Pages ou outra hospedagem HTTPS e teste entrada, colisoes e reuniao.
